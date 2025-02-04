@@ -1,0 +1,49 @@
+1
+1	You can't go there.
+2	I don't understand.
+3	Unlock it with what?
+4	There's nothing here to unlock.
+5	You drink the bottle's contents and are growing larger!
+6	You eat the cake and begin to grow smaller!
+8	You fan yourself with the White rabbit's fan.
+9	You take a piece of the right side of the mushroom. You are growing larger!
+10	You take a piece of the left side of the mushroom. You are growing smaller!
+11	You are very small now.
+12	You are very large now.
+13	You are back to your normal size.
+14	You release the piglet into the forest, where it bounds away.
+15	With all your might, you hit the hedgehog with the beak of the flamingo.
+16	You spread some jam on the Dormouse's nose.
+17	You are back in the room you landed in, but now you notice a beautiful golden 
+17	key sat atop the table. How had you not noticed that before?
+18	The violent chants of your name subside to soft calling. As you open your eyes, 
+18	you find yourself back on the riverbank with your sister over you, now satsfied 
+18	to see you've woken up.
+19	You try to make your case to the court, but you are interrupted.
+20	Welcome to Katelyn Grimoldby's game based off Alice's Adventures in Wonderland 
+20	by Lewis Carroll. This game is my submission for Assignment 4 in COMP 206 at 
+20	Athabasca University. You play as Alice, and you only goal is to find your way 
+20	home out of Wonderland! Best of luck, and if you get stuck use the command 'help'
+21	Use simple two word commands to help Alice. I understand directions like 'go 
+21	north' 'north' or 'n,' as well as actions like 'take' 'drop' and 'talk'. 
+21	However, you need to tell me what object or chracter you are targeting your 
+21	actions to. I'm not a mind reader, after all!
+22	You don't have the right item for this.
+23	You picked up 
+24	You dropped 
+25	You can't do that with this item.
+26	You showed the rose.
+27	You can't pick this item up.
+28	Your inventory is full.
+29	There is no such item here.
+30	There's nothing here to open.
+31	Pick up this item first.
+32	Your size didn't change.
+33	Use flamingo with what?
+34	Use key on what?
+35	Hit hedgehog with what?
+36	There is nothing here to hit.
+37	You grew so large you could see above the thick trees in the forest. To the 
+37	northeast you see a house with smoke puffing out the chimney.
+-1
+0

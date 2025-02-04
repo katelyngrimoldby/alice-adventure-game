@@ -1,0 +1,84 @@
+1
+1	White Rabbit
+000	'Oh Dear, oh dear! I'm so very late!' The White Rabbit cries as he scurries to 
+000	a hedge and disappears. Wherever could he have gone?
+100	The White Rabbit cries in surprise and scampers off, dropping his gloves and a 
+100	fan.
+200	'You! You there!' The White Rabbit barks. 'Bring me my gloves and fan. They 
+200	shall be at my house.'
+300	The White Rabbit and his neighbours are throwing pebbles at you! Although up 
+300	close they look like cakes.
+400	The White Rabbit stands and announces, 'here stands the accused and we shall 
+400	determine if she is guilty of painting the roses red! How do you plead?'
+2	Caterpillar
+000	'Whooo... Are... You?' The Caterpillar inquires while blowing smoke into your 
+000	face.
+100	You are flustered by the Caterpillar's question, and struggle to explain your 
+100	predicament.
+100	'What do you mean by that?' The Caterpillar countered.
+200	You go back and forth with the Caterpillar, who you learned isn't fond of 
+200	becoming a butterfly and is rather sticky about poetry.
+200	'Well. I cannot help you.' The Caterpillar sighs as he begins to crawl away. 
+200	'One side makes you taller, whilst the other makes you grow shorter.' 
+200	What is he talking about? There's nothing here now but the mushroom.
+300	The Caterpillar is gone. 
+3	Duchess
+000	The Duchess is nursing her baby, acting rather annoyed at it. You introduce 
+000	yourself and begin to ask the Duchess for help, but she stops you rather abruptly. 
+100	'I said I don't have time for this! You nurse this baby!' The Duchess sounded 
+100	quite annoyed as she shoved the baby into your arms. You jump in surprise as it 
+100	turns to a piglet. Before you could object, the Duchess was storming down the 
+100	hall out of sight.
+200	The Duchess is gone. 
+4	Cheshire Cat
+000	Upon releasing the piglet, the Cheshire Cat suddenly apprears in front of you, 
+000	showcasing a rather unsettling grin. 'You know,' He says softly, 'the Hatter 
+000	and March Hare are down that way. Perhaps you may find something of value 
+000	there? Of course, they're mad.'
+100	The Cheshire Cat chuckles at your reacting to the Hatter and Hare being mad. 
+100	'We're all mad here. I'm not all there myself.' The Cheshire Cat dissapears. 
+100	Perhaps you should just find the Hatter and Hare.
+200	The Cheshire cat is gone. 
+5	Hatter
+000	'Oh! And who might you be?' The hatter chimed, despite starting intensly at you 
+000	since you had arrived.
+100	'The Dormouse is asleep.' The Hatter points out. 'I'm sure his sweet tooth will 
+100	awaken him soon.'
+200	The hatter interjects, 'I know not of what you speak about. I am mad, after 
+200	all.' You grow frustrated, and turning away to leave you notice a door on a tree. 
+6	March Hare
+000	'There is no room here!' The March hare states indignantly as you approach the 
+000	table. 'There is only room for three.'
+100	You try to protest on account of how large the table is and how much food is 
+100	there, but the March Hare interrupts, 'we put enough food and have the table 
+100	large enough for us three!. There is no room!'
+200	The Dormouse takes a sniff, and blearily blinks his eyes open as he licks the 
+200	jam of his nose. The March Hare turns your attention by yelling 'are you here 
+200	for something, or do you just wish to interrupt us?'
+7	Queen of Hearts
+000	'Oh! Hello, dear!' The woman called. 'Do play croquet with us!'
+100	The womans kind, joyous demeanor was replaced with fury at your response. 'I am 
+100	the Queen of Hearts, girl! And I will not be addressed by anything other than Your 
+100	Majesty and a curtsey!'
+200	'Good hit,' the Queen of Hearts says as the hedgehog makes good distance. She then 
+200	screeches in anger. 'WHAT is that?' She demands.
+300	'How DARE you pluck one of my roses!' The Queen of Hearts screams. 'And its 
+300	painted too?' She turns to the guards, her face red with anger. 'Which one of 
+300	you painted my roses?' One guard looked more guilty than the rest and the 
+300	Queen pointed her finger at him. 'Off with his head!' She turned back to you. 
+400	'If you are so insistent that you did not pluck this rose, then we shall find 
+400	out in trial.' You curtsy at the Queen's mercy. She turns to the castle's 
+400	entrance. 'Gryphon! Take this girl to trial.'
+500	'She's guilty! Off with her head!' The Queen screeched. You tried to argue 
+500	more, but the people - and animals - of the court swarm you, violently 
+500	chanting your name.
+8	Gryphon
+000	'Now then, Alice,' the Gryphon starts. How he knows your name is beyond you. 
+000	'We must get your story straight for Her Majesty. Did you pluck the flower?' 
+100	The Gryphon seemingly ignored your protests of finding it on the ground as he 
+100	continued, 'I must admit, it doesn't look great for you, Alice. The Queen is 
+100	hardly proven wrong, and she takes her roses very seriously.' The Gryphon seems 
+100	deep in thought, but also uncaring. 'Well, best of luck!' He states cheerfully 
+100	as he shoves you into the trial hall.
+-1
+0

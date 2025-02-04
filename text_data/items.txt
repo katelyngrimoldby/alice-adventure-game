@@ -1,0 +1,55 @@
+1
+1	Golden Key
+000	There's a key on the table.
+2	Thimble
+000	There's a thimble on the ground.
+3	Jam Jar
+000	A jar full of jam is on the ground.
+4	'Drink Me' Bottle
+000	There's a bottle with a label that says 'Drink Me.'
+5	'Eat Me' Cake
+000	There's a cake labeled 'Eat Me.'
+6	Gloves
+000	The White Rabbit's gloves are on the ground.
+7	Fan
+000	The White Rabbit's fan is on the ground.
+8	Unlabeled Bottle
+000	There's an unlabeled bottle on the counter.
+9	Small Cake
+000	A small cake sits by your foot.
+10	Right Side
+000	##
+11	Left Side
+000	##
+12	Duchess' Piglet
+000	Duchess' Piglet is nearby sniffing the floor.
+13	Croquet Flamingo
+000	A croquet flamingo is nearby
+14	'Red' Rose
+000	A red rose is nearby... but it looks strange
+15	Hedgehog Ball
+000	A hedgehog is on the ground curled up into a ball
+16	Door
+000	The door is locked
+100	The door is unlocked
+200	The door is open
+-1
+2
+1	0
+2	0
+3	3
+4	0
+5	3
+6	0
+7	0
+8	4
+9	0
+10	6	-1
+11	6	-1
+12	0
+13	9
+14	9
+15	9
+16	3	8
+-1
+0

@@ -1,0 +1,85 @@
+1
+1	It is a hot day by the riverbank of a not-so-important river. Your name is 
+1	Alice and you are sitting with your elder sister. You are growing tired and 
+1	bored when you spot a white rabbit running past you. 
+2	You are in front of a seemingly unremarkable hedge, where had you not seen 
+2	the white rabbit already jump into the rabbit hole you may not had known it 
+2	was there. The rabbit hole is curiously large, it seems as though you could hop 
+2	into it with no struggle, but then again that white rabbit was rather large... 
+3	Now, you are in a free fall; however you don't seem to be falling quite fast. 
+3	The walls of the tunnel are filled with shelves of books. You tried to fetch 
+3	a jar off of one of the shelves, but you instead knocked it down. Curiously, it 
+3	is falling much faster than you. Finally, you land softly in a rather basic room 
+3	with a long hall, a table, and a door much too small to enter. The jar - full 
+3	of jam - lies unharmed in front of you, alongside a bottle labelled 'Drink me.' 
+4	You're not sure why you're obeying The White Rabbit, yet here you are at his 
+4	house, returning his possessions. It is a rather unremarkable house, though you 
+4	aren't sure what sort of house you'd expect for a rabbit. On the counter you 
+4	spot a bottle filled with what appears to be water. 
+5	After running until your feet hurt, you suddenly become aware of your 
+5	surroundings and find you are in a rather dense forest. You see two paths, but 
+5	they are thick with bushes and trees and you'd rather not wander and find 
+5	youself at the wrath of The White Rabbit again. You spot a third, lighter, path 
+5	that has smoke dancing towards you. There seems to be a nice spot here to empty your pockets. 
+6	Following the smoke as it grows heavier and heavier you find a caterpillar 
+6	enjoying a rather large hookah. It is lounging against a tree and, beside it, 
+6	a rather large mushroom sticks out of the centre of the clearing. 
+7	You stand outside the house in amazement at its elegance. Going inside to plead 
+7	for help on how to get home, you find the Duchess, her baby, and a strange 
+7	looking cat. Of the three, the Duchess seems to be the best option for help. 
+8	The tea party certainly wasn't hard to find once it was within eyeshot. It's a 
+8	simple table in tthe middle of the clearing. Pastries, sandwiches, and, of 
+8	course, tea fill the table. Sat around the table is a fellow in quite the 
+8	eclectic hat who muct be the Hatter, as well as a dormouse and a march hare. 
+8	They seem to be in the midst of a lively conversation. 
+9	You find youself in an elegant garden, filled with vibrant red roses. Looking 
+9	around, you notice several croquet loops stuck in the perfectly manicured 
+9	grass. Humanoid playing cards are hitting hedgehogs through them with 
+9	flamingoes... Of all the things in this strange land, this sight is the 
+9	strangest of them all. Finally, you spot a woman in a decorus gown and what 
+9	seems to be a very heavy crown atop her head. Perhaps she has answers for you. 
+10	The Gryphon shoves you into the castle, with the halls lined with statues of 
+10	playing cards and portraits of the Queen of Hearts. Bouquets of red roses, 
+10	seemingly real, are plentiful. 
+11	The Gryphon shoves you on a stand at the head of the trial hall. It seems as 
+11	though you are on trial for... something. You can spot the Duchess, the Hatter, 
+11	and even the White Rabbit among the seats in the room. Looking beside - and 
+11	above - you, the Queen of Hearts sits at a very high podium, looking like she 
+11	wants to kill you. 
+-1
+2
+1	You are at the riverbank.
+2	You are at the rabbit hole.
+3	You are in the landing room.
+4	You are in the White Rabbit's house.
+5	You are in the forest.
+6	You are at the giant mushroom.
+7	You are at the Duchess' house.
+8	You are at the tea party.
+9	You are in the Queen of Hearts' garden.
+10	You are in the Queen of Hearts' castle.
+11	You are in the trial hall.
+-1
+3
+1	2	3
+2	1	4
+2	3	3
+3	4	6
+3	9	9
+4	3	7
+4	5	3
+5	3	9
+5	4	4
+5	6	2
+5	7	3
+5	8	8
+6	5	1
+7	5	4
+8	5	5
+8	3	9
+9	10	2
+10	9	1
+10	11	2
+11	10	1
+-1
+0
