@@ -28,6 +28,8 @@ namespace parser {
     public:
       Vocabulary (std::string file, std::vector<ds::Motion*>* motion_v);
 
+      virtual ~Vocabulary ();
+
       void parse_actions (void);
 
       void parse_characters (void);

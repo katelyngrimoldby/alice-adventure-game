@@ -11,6 +11,28 @@ namespace parser {
     load_file(file);
   }
 
+  Vocabulary::~Vocabulary () {
+    for (int i = 0; i < actions->size(); i++) delete actions->at(i);
+    delete actions;
+    delete current_action;
+
+    for (int i = 0; i < characters->size(); i++) delete characters->at(i);
+    delete characters;
+    delete current_character;
+
+    for (int i = 0; i < items->size(); i++) delete items->at(i);
+    delete items;
+    delete current_item;
+
+    for (int i = 0; i < motions->size(); i++) delete motions->at(i);
+    delete motions;
+    delete current_motion;
+
+    for (int i = 0; i < words->size(); i++) delete words->at(i);
+    delete words;
+    delete current_word;
+  }
+
   void Vocabulary::parse_actions (void) {
     if(is_not_current(current_action, current_id - 200)) {
       current_action = new ds::Action(current_id - 200);
