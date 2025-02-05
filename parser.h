@@ -37,6 +37,8 @@ namespace parser {
       void parse_file (void);
 
       void reset_currents (void);
+
+      bool is_not_current (auto* instance, int num);
   };
 }
 

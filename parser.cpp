@@ -51,8 +51,8 @@ namespace parser {
     current_id = -1;
   }
 
-  template <typename T> 
-  bool is_not_current (T* instance, int num) {
+
+  bool Parser::is_not_current (auto* instance, int num) {
     if (instance == NULL || instance->getNumber() != num) {
       return true;
     } 
