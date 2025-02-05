@@ -1,3 +1,9 @@
+/*
+  item_parser.h
+  Date: February 4, 2025
+  Author: Katelyn Grimoldby
+*/
+
 #ifndef Item_Parser
 #define Item_Parser
 
@@ -13,8 +19,8 @@ namespace parser {
     std::vector<ds::Item*>* items;
     std::vector<ds::Location*>* locations;
 
-    ds::Item* current_item = NULL;
-    ds::Location* current_location = NULL;
+    ds::Item* current_item;
+    ds::Location* current_location;
 
     public:
       Item (std::string file, std::vector<ds::Item*>* item_v, std::vector<ds::Location*>* location_v);
