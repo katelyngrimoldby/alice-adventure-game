@@ -1,3 +1,9 @@
+/*
+  vocabulary_parser.cpp
+  Date: February 4, 2025
+  Author: Katelyn Grimoldby
+*/
+
 #include "vocabulary_parser.h"
 
 namespace parser {

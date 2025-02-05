@@ -1,3 +1,9 @@
+/*
+  character.cpp
+  Date: February 4, 2025
+  Author: Katelyn Grimoldby
+*/
+
 #include "character.h"
 
 namespace ds {

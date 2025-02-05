@@ -1,3 +1,9 @@
+/*
+  vocabulary_parser.h
+  Date: February 4, 2025
+  Author: Katelyn Grimoldby
+*/
+
 #ifndef Vocabulary_Parser
 #define Vocabulary_Parser
 

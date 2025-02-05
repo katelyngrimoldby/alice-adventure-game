@@ -1,3 +1,9 @@
+/*
+  parser.cpp
+  Date: February 4, 2025
+  Author: Katelyn Grimoldby
+*/
+
 #include "parser.h"
 
 namespace parser {

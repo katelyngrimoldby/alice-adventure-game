@@ -1,3 +1,9 @@
+/*
+  message_parser.cpp
+  Date: February 4, 2025
+  Author: Katelyn Grimoldby
+*/
+
 #include "message_parser.h"
 
 namespace parser {

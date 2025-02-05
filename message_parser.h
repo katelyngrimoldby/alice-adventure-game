@@ -1,3 +1,9 @@
+/*
+  message_parser.h
+  Date: February 4, 2025
+  Author: Katelyn Grimoldby
+*/
+
 #ifndef Message_Parser
 #define Message_Parser
 

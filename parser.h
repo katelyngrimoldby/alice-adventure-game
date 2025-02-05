@@ -1,10 +1,7 @@
 /*
  parser.h
- Description: DataParser class
- Date: May 14, 2024
+ Date: February 4, 2025
  Author: Katelyn Grimoldby
- Version: 1.0
- Copyright: 2024 Katelyn Grimoldby
 */
 #ifndef Parser_Base
 #define Parser_Base
