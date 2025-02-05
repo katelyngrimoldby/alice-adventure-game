@@ -29,7 +29,7 @@ namespace util {
   bool has_element (std::vector<T*>* v, T* element);
 
   template <typename T>
-  auto get_instance (std::vector<T>* v, int n);
+  T get_instance (std::vector<T>* v, int n);
 }
 
 

@@ -62,7 +62,7 @@ namespace util {
   }
 
   template <typename T>
-  auto get_instance (std::vector<T>* v, int n) {
+  T get_instance (std::vector<T>* v, int n) {
     for(int i = 0; i < v->size(); i++) {
       if(v->at(i)->getNumber() == n) {      
         return v->at(i);
