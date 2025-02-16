@@ -11,14 +11,12 @@ namespace ds {
     visited = false;
     short_description = "";
     long_description = "";
-    items = new std::vector<Item*>();
+    items = new game::ItemStore();
     accessible_locations = new std::vector<Location*>();
     motions = new std::vector<std::vector<Motion*>*>();
   }
 
   Location::~Location() {
-    items->begin();
-    for (int i = 0; i < items->size(); i++) delete items->at(i);
     delete items;
 
     for (int i = 0; i < accessible_locations->size(); i++) delete accessible_locations->at(i);
@@ -56,23 +54,8 @@ namespace ds {
     short_description += (line + '\n');
   }
 
-  std::vector<Item*>* Location::get_items (void) {
+  game::ItemStore* Location::get_items (void) {
     return items;
-  }
-
-  bool Location::has_item (Item* item) {
-      return util::has_element(items, item);
-  }
-
-  void Location::add_item (Item* item) {
-    items->emplace_back(item);
-  }
-
-  void Location::remove_item (Item* item) {
-    int index = util::find_index(items, item);
-      if (index >= 0) {
-        items->erase(items->begin() + index);
-      }
   }
 
   std::vector<Location*>* Location::get_accessible_locations (void) {
@@ -107,18 +90,6 @@ namespace ds {
     return NULL;
   }
 
-  std::string Location::list_items (void) {
-    std::string items_string = "";
-
-    //  Exclude mushroom sides
-    for (int i = 0; i < items->size(); i++) {
-      if(items->at(i)->get_number() != 10 && items->at(i)->get_number() != 11) {
-        items_string += (items->at(i)->get_current_description() + '\n');
-      }
-    }
-    return items_string;
-  }
-
   std::string Location::to_string (void) {
     std::string location_string = "";
 
@@ -129,7 +100,7 @@ namespace ds {
     }
 
     location_string += '\n';
-    location_string += list_items();
+    location_string += items->list_items();
 
     return location_string;
   }
