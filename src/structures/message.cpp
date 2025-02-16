@@ -1,22 +1,18 @@
 /*
   message.cpp
-  Date: February 4, 2025
+  Date: February 16, 2025
   Author: Katelyn Grimoldby
 */
 
 #include "message.h"
 
 namespace ds {
-  Message::Message (int n) {
+  Message::Message (int n) : Structure(n) {
     content = "";
-    number = n;
   }
 
   Message::~Message () {};
 
-  int Message::get_number (void) {
-    return number;
-  }
 
   std::string Message::get_content (void) {
     return content;

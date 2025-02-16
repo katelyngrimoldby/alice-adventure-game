@@ -1,6 +1,6 @@
 /*
  word.h
- Date: February 4, 2025
+ Date: February 16, 2025
  Author: Katelyn Grimoldby
 */
 
@@ -9,19 +9,17 @@
 
 #include <string>  // Stream declarations
 #include <vector>
+#include "structure.h"
 #include "utility.h"
 
 namespace ds {
-  class Word {
-    int number;
+  class Word : public Structure {
     std::vector<std::string> words;
 
     public:
       Word (int n);
 
       virtual ~Word();
-
-      int get_number (void);
 
       std::vector<std::string> get_words (void);
 

@@ -1,23 +1,18 @@
 /*
   character.cpp
-  Date: February 4, 2025
+  Date: February 16, 2025
   Author: Katelyn Grimoldby
 */
 
 #include "character.h"
 
 namespace ds {
-  Character::Character(int n) {
+  Character::Character(int n) : Structure(n) {
     dialog_index = 0;
-    number = n;
   }
 
   Character::~Character() {
     delete vocabulary;
-  }
-
-  int Character::get_number (void) {
-    return number;
   }
 
   std::string Character::getName (void) {

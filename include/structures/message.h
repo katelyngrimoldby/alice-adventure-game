@@ -1,6 +1,6 @@
 /*
  message.h
- Date: February 4, 2025
+ Date: February 16, 2025
  Author: Katelyn Grimoldby
 */
 
@@ -8,18 +8,16 @@
 #define Message_Definition
 
 #include <string>
+#include "structure.h"
 
 namespace ds {
-  class Message {
-    int number;
+  class Message : public Structure {
     std::string content;
 
     public:
       Message (int n);
 
       virtual ~Message ();
-
-      int get_number (void);
 
       std::string get_content (void);
 

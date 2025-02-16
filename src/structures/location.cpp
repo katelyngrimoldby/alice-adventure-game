@@ -1,13 +1,13 @@
 /*
   location.cpp
-  Date: February 4, 2025
+  Date: February 16, 2025
   Author: Katelyn Grimoldby
 */
 
 #include "location.h"
 
 namespace ds {
-  Location::Location (int n) {
+  Location::Location (int n) : Structure(n) {
     visited = false;
     short_description = "";
     long_description = "";
@@ -31,10 +31,6 @@ namespace ds {
     }
     delete motions;
   };
-
-  int Location::get_number (void) {
-    return number;
-  }
 
   bool Location::is_visited (void) {
     return visited;

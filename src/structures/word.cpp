@@ -1,21 +1,15 @@
 /*
   word.cpp
-  Date: February 4, 2025
+  Date: February 16, 2025
   Author: Katelyn Grimoldby
 */
 
 #include "word.h"
 
 namespace ds {
-  Word::Word(int n) {
-    number = n;
-  }
+  Word::Word (int n) : Structure(n) {};
 
-  Word::~Word() {}
-
-  int Word::get_number (void) {
-    return number;
-  }
+  Word::~Word () {}
 
   std::vector<std::string> Word::get_words (void) {
     return words;

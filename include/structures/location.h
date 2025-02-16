@@ -1,6 +1,6 @@
 /*
  location.h
- Date: February 4, 2025
+ Date: February 16, 2025
  Author: Katelyn Grimoldby
 */
 
@@ -10,13 +10,13 @@
 
 #include <vector>
 #include <string>
+#include "structure.h"
 #include "utility.h"
 #include "item.h"
 #include "motion.h"
 
 namespace ds {
-  class Location {
-    int number;
+  class Location : public Structure {
     bool visited;
     std::string short_description;
     std::string long_description;
@@ -29,8 +29,6 @@ namespace ds {
       Location (int n);
 
       virtual ~Location();
-
-      int get_number (void);
 
       bool is_visited (void);
 

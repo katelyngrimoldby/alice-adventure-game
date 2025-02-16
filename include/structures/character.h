@@ -1,6 +1,6 @@
 /*
  character.h
- Date: February 4, 2025
+ Date: February 16, 2025
  Author: Katelyn Grimoldby
 */
 #ifndef Character_Definition
@@ -8,11 +8,11 @@
 
 #include <string>
 #include <vector>
+#include "structure.h"
 #include "word.h"
 
 namespace ds {
-  class Character {
-    int number;
+  class Character : public Structure {
     std::string name;
     Word* vocabulary;
     int dialog_index;
@@ -22,8 +22,6 @@ namespace ds {
       Character(int n);
 
       virtual ~Character();
-
-      int get_number (void);
 
       std::string getName (void);
 
