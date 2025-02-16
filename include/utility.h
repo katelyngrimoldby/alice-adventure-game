@@ -12,6 +12,9 @@
 #include <vector>
 
 namespace util {
+
+  enum class Size {Small, Normal, Large};
+
   // Non-pointer functions
   template <typename T>
   int find_index (std::vector<T> v, T element);
