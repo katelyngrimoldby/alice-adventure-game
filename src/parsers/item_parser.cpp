@@ -47,7 +47,7 @@ namespace parser {
     if(line_vect.at(1) != "0") {  //  0 means the item is in no location to start
       current_location = util::get_instance(locations, atoi(line_vect.at(1).c_str()));
 
-      current_location->add_item(current_item);
+      current_location->get_items()->add_item(current_item);
 
       if(line_vect.size() > 2) {
         current_item->set_movable(false);
@@ -55,7 +55,7 @@ namespace parser {
         if(line_vect.at(2) != "-1") {  //  -1 just means the item is static, while any other number is a second location and the location is static
           current_location = util::get_instance(locations, atoi(line_vect.at(2).c_str()));
 
-          current_location->add_item(current_item);
+          current_location->get_items()->add_item(current_item);
         }
       }
     }
