@@ -16,7 +16,6 @@ namespace ds {
     int prop_value;
     std::string inventory_message;
     std::vector<std::string> descriptions;
-
     bool movable;
 
     public:

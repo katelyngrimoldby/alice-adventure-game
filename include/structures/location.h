@@ -20,7 +20,6 @@ namespace ds {
     bool visited;
     std::string short_description;
     std::string long_description;
-
     std::vector<Item*>* items;
     std::vector<Location*>* accessible_locations;
     std::vector<std::vector<Motion*>*>* motions;

@@ -24,7 +24,6 @@ namespace parser {
     std::vector<ds::Item*>* items;
     std::vector<ds::Motion*>* motions;
     std::vector<ds::Word*>* words;
-
     ds::Action* current_action;
     ds::Character* current_character;
     ds::Item* current_item;

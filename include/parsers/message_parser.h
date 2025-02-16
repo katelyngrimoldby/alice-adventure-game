@@ -15,8 +15,8 @@
 namespace parser {
   class Message : public Parser {
     std::vector<ds::Message*>* messages;
-
     ds::Message* current_message;
+    
     public:
       Message (std::string file);
 

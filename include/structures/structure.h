@@ -13,9 +13,11 @@ namespace ds {
 
     public:
       Structure (int n);
+
       virtual ~Structure ();
 
       int get_number (void);
+      
       virtual void nil (void) = 0;
   };
 }

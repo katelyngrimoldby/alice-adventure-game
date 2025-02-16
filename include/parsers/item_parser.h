@@ -18,7 +18,6 @@ namespace parser {
   class Item : public Parser {
     std::vector<ds::Item*>* items;
     std::vector<ds::Location*>* locations;
-
     ds::Item* current_item;
     ds::Location* current_location;
 

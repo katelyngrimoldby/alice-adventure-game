@@ -23,6 +23,7 @@ namespace parser {
 
     public:
       Parser (void);
+      
       virtual ~Parser();
 
       void load_file (std::string file);

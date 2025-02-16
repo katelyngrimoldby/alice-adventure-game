@@ -18,7 +18,6 @@ namespace parser {
   class Location : public Parser {
     std::vector<ds::Location*>* locations;
     std::vector<ds::Motion*>* motions;
-
     ds::Location* current_location;
     ds::Location* accessible_location;
     ds::Motion* current_motion;

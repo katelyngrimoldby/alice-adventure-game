@@ -14,6 +14,7 @@ namespace ds {
   class Action : public Word {
   public: 
     Action (int n);
+    
     virtual ~Action();
 };
 }
