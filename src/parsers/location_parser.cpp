@@ -67,7 +67,7 @@ namespace parser {
     current_location->add_motion(accessible_location, current_motion);
   }
 
-  void Location::parseData (void) {
+  void Location::parse_data (void) {
     switch (current_section) {
       case 1: //  Handles long descriptions for locations
         parse_long_descriptions();
