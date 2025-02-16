@@ -21,6 +21,7 @@
 #include "location_parser.h"
 #include "message_parser.h"
 #include "vocabulary_parser.h"
+#include "utility.h"
 
 namespace game {
   class Data {
@@ -36,6 +37,20 @@ namespace game {
       Data (void);
 
       virtual ~Data ();
+
+      ds::Action* get_action (int n);
+
+      ds::Character* get_character (int n);
+
+      ds::Item* get_item (int n);
+
+      ds::Location* get_location (int n);
+
+      ds::Message* get_message (int n);
+
+      ds::Motion* get_motion (int n);
+
+      ds::Word* get_word (int n);
 
       ds::Word* find_word (std::string word);
 

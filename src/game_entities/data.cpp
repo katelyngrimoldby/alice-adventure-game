@@ -48,6 +48,34 @@ namespace game {
     delete words;
   }
 
+  ds::Action* Data::get_action (int n) {
+    return util::get_instance(actions, n);
+  }
+
+  ds::Character* Data::get_character (int n){
+    return util::get_instance(characters, n);
+  }
+
+  ds::Item* Data::get_item (int n){
+    return util::get_instance(items, n);
+  }
+
+  ds::Location* Data::get_location (int n){
+    return util::get_instance(locations, n);
+  }
+
+  ds::Message* Data::get_message (int n){
+    return util::get_instance(messages, n);
+  }
+
+  ds::Motion* Data::get_motion (int n){
+    return util::get_instance(motions, n);
+  }
+
+  ds::Word* Data::get_word (int n){
+    return util::get_instance(words, n);
+  }
+
   ds::Word* Data::find_word (std::string word) {
     int len = actions->size();
     for (int i = 0; i < len; i++) {
