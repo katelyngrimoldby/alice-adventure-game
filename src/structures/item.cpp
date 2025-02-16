@@ -1,13 +1,17 @@
 /*
   item.cpp
-  Date: February 4, 2025
+  Date: February 16, 2025
   Author: Katelyn Grimoldby
 */
 
 #include "item.h"
 
 namespace ds {
-  Item::Item(int n) : Word(n) {};
+  Item::Item(int n) : Word(n) {
+    prop_value = 0;
+    inventory_message = "";
+    movable = true;
+  };
 
   Item::~Item() {};
 

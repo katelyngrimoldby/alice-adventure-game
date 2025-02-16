@@ -1,6 +1,6 @@
 /*
  item.h
- Date: February 4, 2025
+ Date: February 16, 2025
  Author: Katelyn Grimoldby
 */
 
@@ -13,11 +13,11 @@
 
 namespace ds {
   class Item : public Word {
-    int prop_value = 0;
-    std::string inventory_message = "";
+    int prop_value;
+    std::string inventory_message;
     std::vector<std::string> descriptions;
 
-    bool movable = true;
+    bool movable;
 
     public:
       Item(int n);
