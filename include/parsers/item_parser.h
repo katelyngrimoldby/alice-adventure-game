@@ -30,7 +30,7 @@ namespace parser {
 
       void parse_locations (void);
 
-      void parse_data (void);
+      void parse_data (void) override;
   };
 }
 

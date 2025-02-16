@@ -45,7 +45,7 @@ namespace parser {
 
       void parse_words (void);
 
-      void parse_data (void);
+      void parse_data (void) override;
 
       std::vector<ds::Action*>* return_actions (void);
 

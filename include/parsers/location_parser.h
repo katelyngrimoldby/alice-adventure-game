@@ -33,7 +33,7 @@ namespace parser {
 
       void parse_location_mapping (void);
 
-      void parseData (void);
+      void parse_data (void) override;
 
       std::vector<ds::Location*>* return_locations (void);
 

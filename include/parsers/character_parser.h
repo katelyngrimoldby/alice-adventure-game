@@ -24,7 +24,7 @@ namespace parser {
 
       virtual ~Character ();
 
-      void parse_data (void);
+      void parse_data (void) override;
   };
 }
 

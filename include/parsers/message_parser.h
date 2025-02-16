@@ -22,7 +22,7 @@ namespace parser {
 
       virtual ~Message ();
 
-      void parse_data (void);
+      void parse_data (void) override;
 
       std::vector<ds::Message*>* return_messages (void);
   };
