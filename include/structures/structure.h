@@ -17,8 +17,6 @@ namespace ds {
       virtual ~Structure ();
 
       int get_number (void);
-      
-      virtual void nil (void) = 0;
   };
 }
 
