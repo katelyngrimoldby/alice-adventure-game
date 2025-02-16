@@ -1,5 +1,5 @@
 /*
-  item_store.h
+  item_store.cpp
   Date: February 16, 2025
   Author: Katelyn Grimoldby
 */
