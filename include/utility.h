@@ -10,8 +10,21 @@
 #include <string>
 #include <sstream>
 #include <vector>
+#include "action.h"
+#include "character.h"
+#include "item.h"
+#include "motion.h"
+#include "word.h"
 
 namespace util {
+
+  struct Command {
+    ds::Action* action = NULL;
+    ds::Character* character = NULL;
+    ds::Item* item = NULL;
+    ds:: Motion* motion = NULL;
+    ds::Word* word = NULL;
+  };
 
   enum class Size {Small, Normal, Large};
 
