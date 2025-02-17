@@ -76,39 +76,51 @@ namespace game {
     return util::get_instance(words, n);
   }
 
-  ds::Word* Data::find_word (std::string word) {
+  util::Command* Data::find_word (std::string word) {
     int len = actions->size();
+
     for (int i = 0; i < len; i++) {
-      if (actions->at(i)->has_word(word)) return actions->at(i);
+      if (actions->at(i)->has_word(word)) {
+        util::Command* command;
+        command->action = actions->at(i);
+        return command;
+      };
     }
 
     len = characters->size();
     for (int i = 0; i < len; i++) {
-      if (characters->at(i)->get_vocabulary()->has_word(word)) return characters->at(i)->get_vocabulary();
+      if (characters->at(i)->get_vocabulary()->has_word(word)) {
+        util::Command* command;
+        command->character = characters->at(i);
+        return command;
+      }
     }
 
     len = items->size();
     for (int i = 0; i < len; i++) {
-      if (items->at(i)->has_word(word)) return items->at(i);
+      if (items->at(i)->has_word(word)) {
+        util::Command* command;
+        command->item = items->at(i);
+        return command;
+      }
     }
 
     len = motions->size();
     for (int i = 0; i < len; i++) {
-      if (motions->at(i)->has_word(word)) return motions->at(i);
+      if (motions->at(i)->has_word(word)) {
+        util::Command* command;
+        command->motion = motions->at(i);
+        return command;
+      }
     }
 
     len = words->size();
     for (int i = 0; i < len; i++) {
-      if (words->at(i)->has_word(word)) return words->at(i);
-    }
-
-    return NULL;
-  }
-
-  ds::Character* Data::find_character (ds::Word* word) {
-    int len = characters->size();
-    for (int i = 0; i < len; i++) {
-      if (characters->at(i)->get_vocabulary() == word) return characters->at(i);
+      if (words->at(i)->has_word(word)) {
+        util::Command* command;
+        command->word = words->at(i);
+        return command;
+      }
     }
 
     return NULL;

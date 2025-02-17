@@ -52,9 +52,7 @@ namespace game {
 
       ds::Word* get_word (int n);
 
-      ds::Word* find_word (std::string word);
-
-      ds::Character* find_character (ds::Word* word);
+      util::Command* find_word (std::string word);
   };
 }
 
