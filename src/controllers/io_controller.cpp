@@ -12,6 +12,7 @@ namespace controller {
     character_controller = new Character(d, p);
     item_controller = new Item(d, p, character_controller);
     motion_controller = new Motion(d, p, character_controller, item_controller);
+    special_controller = new Special(d, p);
     commands = new vector<T*>();
   }
 
@@ -94,13 +95,13 @@ namespace controller {
       // One word: Motion (0-99) or Special (400-499)
       if (commands.size() == 1) {
         if (commands.at(0)->motion != NULL) {  //  Check if word is Motion
-          auto motion = commands.at(0)->motion
-          motion_controller->move(motion, location);
+          motion_controller->move(commands.at(0)->motion, location);
 
           handle_command();
-        } else if (commands.at(0)->getNumber() / 100 == 4) {  // Check if word is special word (number > 400)
-          // TO CREATE CONTROLLER FOR
+        } else if (commands.at(0)->word != NULL) {  // Check if word is special word (number > 400)
+          special_controller->act_on_command(commands.at(0)->word)
 
+          handle_command();
         } else  bad_input();
 
       } else if (commands.size() == 2) {  //  Two words: Action and Motion/Character/Item

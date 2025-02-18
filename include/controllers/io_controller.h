@@ -16,6 +16,7 @@
 #include "character_controller.h"
 #include "item_controller.h"
 #include "motion_controller.h"
+#include "special_controller.h"
 #include "utility.h"
 
 namespace controller {
@@ -25,6 +26,7 @@ namespace controller {
     Character* character_controller;
     Item* item_controller;
     Motion* motion_controller;
+    Special* special_controller;
 
     public:
       IO (game::Data* d, game::Player* p);
