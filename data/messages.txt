@@ -21,8 +21,7 @@
 18	to see you've woken up.
 19	You try to make your case to the court, but you are interrupted.
 20	Welcome to Katelyn Grimoldby's game based off Alice's Adventures in Wonderland 
-20	by Lewis Carroll. This game is my submission for Assignment 4 in COMP 206 at 
-20	Athabasca University. You play as Alice, and you only goal is to find your way 
+20	by Lewis Carroll.  You play as Alice, and you only goal is to find your way 
 20	home out of Wonderland! Best of luck, and if you get stuck use the command 'help'
 21	Use simple two word commands to help Alice. I understand directions like 'go 
 21	north' 'north' or 'n,' as well as actions like 'take' 'drop' and 'talk'. 
