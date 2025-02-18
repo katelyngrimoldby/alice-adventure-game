@@ -53,6 +53,10 @@ namespace game {
       ds::Word* get_word (int n);
 
       util::Command* find_word (std::string word);
+
+      std::vector<ds::Character*>* get_characters (void);
+
+      std::vector<ds::Location*>* get_locations (void);
   };
 }
 

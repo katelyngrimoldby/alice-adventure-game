@@ -125,4 +125,12 @@ namespace game {
 
     return NULL;
   }
+
+  std::vector<ds::Character*>* Data::get_characters (void) {
+    return characters;
+  }
+
+  std::vector<ds::Location*>* Data::get_locations (void) {
+    return locations;
+  }
 }
