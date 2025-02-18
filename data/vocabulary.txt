@@ -63,9 +63,12 @@
 308	gryphon
 401	help
 401	?
+401	h
 402	quit
 402	q
 403	inventory
 403	i
+404	save
+404	s
 -1
 0
