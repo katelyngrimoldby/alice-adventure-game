@@ -15,7 +15,7 @@ namespace controller {
     // Check file exists
     std::ifstream save_file("save.txt");
     if(!save_file.good()) {
-      std::cout << "No save exists" << std::endl;
+      print(get_message(38));
       save_file.close();
       return;
     }
@@ -88,6 +88,8 @@ namespace controller {
     }
 
     save_file << "-1\n0";
+
+    print(get_message(39));
   }
 
   void Special::act_on_command (ds::Word* word) {
