@@ -157,6 +157,8 @@ namespace controller {
     //  Intro message
     print(get_message(20));
 
+    if(to_lower(get_input(false)) == "new") special_controller->load_save();
+
     //  Location description and items
     print(player->get_current_location()->to_string());
 
