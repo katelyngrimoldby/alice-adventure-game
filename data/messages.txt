@@ -23,6 +23,7 @@
 20	Welcome to Katelyn Grimoldby's game based off Alice's Adventures in Wonderland 
 20	by Lewis Carroll.  You play as Alice, and you only goal is to find your way 
 20	home out of Wonderland! Best of luck, and if you get stuck use the command 'help'
+20	To start a new game, use 'new'. If you wish to continue from a save file, use 'save'
 21	Use simple two word commands to help Alice. I understand directions like 'go 
 21	north' 'north' or 'n,' as well as actions like 'take' 'drop' and 'talk'. 
 21	However, you need to tell me what object or chracter you are targeting your 
@@ -44,5 +45,7 @@
 36	There is nothing here to hit.
 37	You grew so large you could see above the thick trees in the forest. To the 
 37	northeast you see a house with smoke puffing out the chimney.
+38	Cannot locate save file. Starting a new game...
+39	Game saved!
 -1
 0
